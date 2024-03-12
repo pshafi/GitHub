@@ -14,9 +14,9 @@ git --version
 #in Finder, toggle on the viewing of hidden files (command + shift + . (period))
 #in the .git file, find the config document and open it in text editor
 #add the following code to it and save the changes
-[user]
-  name = Your Name
-  email = your.email@example.com
+# [user]
+#   name = Your Name
+#   email = your.email@example.com
 
 
 # initializing a git repo using R commands --------------------------------
@@ -44,7 +44,13 @@ gitcreds_set()
 
 # connect this RStudio project to GitHub repo -----------------------------
 
+#you can do this through R. This will create a GitHub repo based on the Git repo we created 
 use_github()
 
+#or you can create the new repo directly on GitHub and clone the GitHub repo onto R
 
+
+# Pushing -----------------------------------------------------------------
+
+#anything new that you commit has to be "pushed" (green upwards arrow in the top right panel) so that it is updated in the GitHub repo
 
