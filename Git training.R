@@ -24,4 +24,27 @@ git --version
 #create a project
 library(usethis)
 use_git()
+#follow commands
+#restart the project and a "Git" tab should be added in the top right panel
+
+# Create a Personal Access Token (PAT) on GitHub --------------------------
+
+create_github_token()
+#in the webpage, describe the use of token and don't change the config (for this training at least)
+#generate the token and keep the number safe somewhere (I copied it in the code)
+#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
+
+
+# connect RStudio to GitHub -----------------------------------------------
+
+library(gitcreds)
+gitcreds_set()
+#paste the token in console
+
+
+# connect this RStudio project to GitHub repo -----------------------------
+
+use_github()
+
+
 
