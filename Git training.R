@@ -54,3 +54,7 @@ use_github()
 
 #anything new that you commit has to be "pushed" (green upwards arrow in the top right panel) so that it is updated in the GitHub repo
 
+# Pulling -----------------------------------------------------------------
+
+#when a change is made to the code by someone else and is committed to the repo, you can "pull" the latest version of the code by pressing the downwards blue arrow in the top right panel
+
